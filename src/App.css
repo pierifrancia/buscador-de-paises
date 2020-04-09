@@ -1,0 +1,36 @@
+body {
+    margin:0;
+}
+
+.form {
+    margin: 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 2px 2px rgba(68, 67, 67, 0.2), 1px 1px 5px 5px rgba(192, 190, 190, 0.22);
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
